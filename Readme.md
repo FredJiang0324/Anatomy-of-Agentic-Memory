@@ -22,6 +22,71 @@ Agentic memory systems enable large language model (LLM) agents to maintain stat
 
 This survey presents a structured analysis of agentic memory from both architectural and system perspectives. We introduce a **concise taxonomy of Memory-Augmented Generation (MAG)** systems based on four memory structures, and systematically analyze key pain points limiting current systems—including benchmark saturation effects, metric validity and judge sensitivity, backbone-dependent accuracy, and latency/throughput overhead. By connecting memory structure to empirical limitations, this survey clarifies why current agentic memory systems often underperform their theoretical promise, and outlines directions for more reliable evaluation and scalable system design.
 
+## 🔍 What Makes This Survey Different
+
+Most existing surveys on agentic memory operate at the **theoretical level** — cataloguing architectures, defining conceptual taxonomies, or drawing cognitive science analogies. We complement these efforts with **systematic empirical analysis** across representative MAG systems, surfacing four practical pain points that are frequently overlooked.
+
+The table below compares our survey with closely related work. ✓ = systematically discussed, (✓) = partially covered, ✗ = not addressed.
+
+<table>
+  <thead>
+    <tr>
+      <th>Survey</th>
+      <th>Taxonomy Focus</th>
+      <th align="center">Memory Mgmt.<br>&amp; Policy</th>
+      <th align="center">Benchmark<br>Saturation</th>
+      <th align="center">Metric<br>Validity</th>
+      <th align="center">Backbone<br>Sensitivity</th>
+      <th align="center">System Cost<br>&amp; Latency</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://arxiv.org/abs/2601.09113">The AI Hippocampus</a> (Jia et al., 2026)</td>
+      <td>Brain-inspired: implicit, explicit, agentic</td>
+      <td align="center">(✓)</td><td align="center">✗</td><td align="center">✗</td><td align="center">✗</td><td align="center">✗</td>
+    </tr>
+    <tr>
+      <td><a href="https://arxiv.org/abs/2512.13564">Memory in the Age of AI Agents</a> (Hu et al., 2025)</td>
+      <td>Forms–functions–dynamics</td>
+      <td align="center">(✓)</td><td align="center">✗</td><td align="center">✗</td><td align="center">✗</td><td align="center">✗</td>
+    </tr>
+    <tr>
+      <td><a href="https://arxiv.org/abs/2601.14192">Toward Efficient Agents</a> (Yang et al., 2026)</td>
+      <td>Efficiency-focused: memory, tool learning, planning</td>
+      <td align="center">✓</td><td align="center">✗</td><td align="center">✗</td><td align="center">✗</td><td align="center">✓</td>
+    </tr>
+    <tr>
+      <td><a href="https://arxiv.org/abs/2602.06052">Rethinking Memory Mechanisms</a> (Huang et al., 2026)</td>
+      <td>Substrate–cognition–subject</td>
+      <td align="center">✓</td><td align="center">(✓)</td><td align="center">✗</td><td align="center">✗</td><td align="center">✗</td>
+    </tr>
+    <tr>
+      <td>From Storage to Experience (Luo et al., 2026)</td>
+      <td>Evolutionary: storage–reflection–experience</td>
+      <td align="center">(✓)</td><td align="center">✗</td><td align="center">✗</td><td align="center">✗</td><td align="center">✗</td>
+    </tr>
+    <tr>
+      <td><a href="https://arxiv.org/abs/2602.05665">Graph-based Agent Memory</a> (Yang et al., 2026)</td>
+      <td>Graph-oriented lifecycle</td>
+      <td align="center">✓</td><td align="center">(✓)</td><td align="center">✗</td><td align="center">✗</td><td align="center">✗</td>
+    </tr>
+    <tr>
+      <td><strong>Ours</strong></td>
+      <td>Structural + Empirical analysis</td>
+      <td align="center">✓</td><td align="center">✓</td><td align="center">✓</td><td align="center">✓</td><td align="center">✓</td>
+    </tr>
+  </tbody>
+</table>
+
+**1. Benchmark Saturation** — Many existing benchmarks fit within modern 128k+ context windows, making external memory structurally unnecessary. We propose the **Context Saturation Gap** (Δ = Score<sub>MAG</sub> − Score<sub>FullContext</sub>) to test whether a benchmark genuinely requires external memory.
+
+**2. Metric Misalignment** — Lexical metrics (F1, BLEU) diverge from semantic correctness and can misrank systems. LLM-as-a-judge is more reliable but requires careful prompt calibration.
+
+**3. Backbone Sensitivity** — Complex memory architectures (graph-based, episodic) rely on structured output generation during updates. Weaker backbones produce higher format error rates, silently corrupting long-term memory.
+
+**4. System Cost** — Agentic memory introduces write–consolidate overhead absent in standard RAG. Trade-offs among latency, construction time, and token consumption are rarely reported but critical for deployment.
+
 ## 🗂️ Taxonomy
 
 We organize agentic memory into four structural paradigms:
