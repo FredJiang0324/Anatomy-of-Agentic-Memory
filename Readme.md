@@ -18,9 +18,7 @@
 
 ## ⚡ Introduction
 
-Agentic memory systems enable large language model (LLM) agents to maintain state across long interactions, supporting long-horizon reasoning and personalization beyond fixed context windows. Despite rapid architectural development, the empirical foundations of these systems remain fragile: existing benchmarks are often underscaled, evaluation metrics are misaligned with semantic utility, performance varies significantly across backbone models, and system-level costs are frequently overlooked.
-
-This survey presents a structured analysis of agentic memory from both architectural and system perspectives. We introduce a **concise taxonomy of Memory-Augmented Generation (MAG)** systems based on four memory structures, and systematically analyze key pain points limiting current systems—including benchmark saturation effects, metric validity and judge sensitivity, backbone-dependent accuracy, and latency/throughput overhead. By connecting memory structure to empirical limitations, this survey clarifies why current agentic memory systems often underperform their theoretical promise, and outlines directions for more reliable evaluation and scalable system design.
+This repo maintains a curated list of papers on **agentic memory for LLM-based agents**, organized around the taxonomy introduced in our survey. We cover Memory-Augmented Generation (MAG) systems across four structural paradigms and will keep the list updated as the field evolves. Contributions are welcome!
 
 ## 🔍 What Makes This Survey Different
 
