@@ -18,7 +18,9 @@
 
 ## ⚡ Introduction
 
-This repo maintains a curated list of papers on **agentic memory for LLM-based agents**, organized around the taxonomy introduced in our survey. We cover Memory-Augmented Generation (MAG) systems across four structural paradigms and will keep the list updated as the field evolves. Contributions are welcome!
+This repo maintains a curated list of papers on **agentic memory for LLM-based agents**, organized around the taxonomy introduced in our survey. We cover Memory-Augmented Generation (MAG) systems across four structural paradigms and will keep the list updated as the field evolves.
+
+If you have a new paper or find a work we missed, feel free to open an **issue** or submit a **pull request** — it helps us maintain this repo, update our manuscript, and contribute to the broader community. 🤝
 
 ## 🔍 What Makes This Survey Different
 
