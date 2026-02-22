@@ -13,7 +13,7 @@
 
 ## 🔥 News
 
-- **[2026/02/20]** Our survey *Anatomy of Agentic Memory* is released! See [paper](https://github.com/libingzheren/libingzheren.github.io/blob/master/file/2026_CoNLL_AgenticMemorySurvey__arxiv_.pdf) for details.
+- **[2026/02/xx]** Our survey *Anatomy of Agentic Memory* is released! See [paper](https://github.com/libingzheren/libingzheren.github.io/blob/master/file/2026_CoNLL_AgenticMemorySurvey__arxiv_.pdf) for details.
 - **[2026/02/20]** We create this repo to maintain the papers we cover in the agentic memory area. More papers are coming — **welcome to contribute to the community!** Open an issue or submit a pull request to add papers, fix links, or improve categorization.
 
 ## ⚡ Introduction
