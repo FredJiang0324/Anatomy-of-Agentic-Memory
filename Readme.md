@@ -174,6 +174,7 @@ We organize agentic memory into four structural paradigms:
 * [TokMem: Tokenized Procedural Memory for Large Language Models](https://arxiv.org/abs/2510.00444) (Wu et al., 2025)
 * [MemGen: Weaving Generative Latent Memory for Self-Evolving Agents](https://arxiv.org/abs/2509.24704) (Zhang et al., 2025)
 * [Memory³: Language Modeling with Explicit Memory](https://arxiv.org/abs/2407.01178) (Yang et al., 2024)
+* [R-Capsule: Compressing High-Level Plans for Efficient Large Language Model Reasoning](https://arxiv.org/abs/2509.22131) (Shan et al., 2025)
 
 ---
 
@@ -188,7 +189,7 @@ We organize agentic memory into four structural paradigms:
 * [Memory-R1: Enhancing Large Language Model Agents to Manage and Utilize Memories via Reinforcement Learning](https://arxiv.org/abs/2508.19828) (Yan et al., 2025)
 * [Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory](https://arxiv.org/abs/2504.19413) (Chhikara et al., 2025)
 * RMM: Reinforced Memory Management for Class-Incremental Learning (Liu et al., 2021) ![NeurIPS 2021](https://img.shields.io/badge/NeurIPS%202021-blue)
-* WebCoach (Liu et al., 2025)
+* [WebCoach: Self-Evolving Web Agents with Cross-Session Memory Guidance](https://arxiv.org/abs/2511.12997) (Liu et al., 2025)
 * [MEM1: Learning to Synergize Memory and Reasoning for Efficient Long-Horizon Agents](https://arxiv.org/abs/2506.15841) (Zhou et al., 2025)
 
 <a name="personalized-memory"></a>
@@ -197,7 +198,7 @@ We organize agentic memory into four structural paradigms:
 * [Preference-Aware Memory Update for Long-Term LLM Agents (PAMU)](https://arxiv.org/abs/2510.09720) (Sun et al., 2025)
 * [EgoMem: Lifelong Memory Agent for Full-Duplex Omnimodal Models](https://arxiv.org/abs/2509.11914) (Yao et al., 2025)
 * [MemOrb: A Plug-and-Play Verbal-Reinforcement Memory Layer for E-Commerce Customer Service](https://arxiv.org/abs/2509.18713) (Huang et al., 2025)
-* WebCoach (Liu et al., 2025)
+* [WebCoach: Self-Evolving Web Agents with Cross-Session Memory Guidance](https://arxiv.org/abs/2511.12997) (Liu et al., 2025)
 * [MemoryBank: Enhancing Large Language Models with Long-Term Memory](https://arxiv.org/abs/2305.10250) (Zhong et al., 2024) ![AAAI 2024](https://img.shields.io/badge/AAAI%202024-blue)
 * [Hello Again! LLM-powered Personalized Agent for Long-term Dialogue](https://arxiv.org/abs/2406.05925) (Li et al., 2025) ![NAACL 2025](https://img.shields.io/badge/NAACL%202025-blue)
 * Embodied Agents (Kwon et al., 2025)
@@ -220,7 +221,7 @@ We organize agentic memory into four structural paradigms:
 #### Episodic Reflection & Consolidation
 
 * [In Prospect and Retrospect: Reflective Memory Management for Long-term Personalized Dialogue Agents](https://arxiv.org/abs/2503.08026) (Tan et al., 2025) ![ACL 2025](https://img.shields.io/badge/ACL%202025-blue)
-* TiMem (Li et al., 2026)
+* [TiMem: Temporal-Hierarchical Memory Consolidation for Long-Horizon Conversational Agents](https://arxiv.org/abs/2601.02845) (Li et al., 2026)
 * [MemP: Exploring Agent Procedural Memory](https://arxiv.org/abs/2508.06433) (Fang et al., 2025)
 * Pre-Storage Reasoning (Kim et al., 2025)
 * [Nemori: Self-Organizing Agent Memory Inspired by Cognitive Science](https://arxiv.org/abs/2508.03341) (Nan et al., 2025)
@@ -279,14 +280,14 @@ We organize agentic memory into four structural paradigms:
 * [A Scenario-Driven Cognitive Approach to Next-Generation AI Memory](https://arxiv.org/abs/2509.13235) (Cai et al., 2025)
 * ReMe (Li Yu, 2025)
 * [LightMem: Lightweight and Efficient Memory-Augmented Generation](https://arxiv.org/abs/2510.18866) (Fang et al., 2025)
-* Conversational Agents: From RAG to LTM (Zhang et al., 2025) ![SIGIR-AP 2025](https://img.shields.io/badge/SIGIR--AP%202025-blue)
+* [Conversational Agents: From RAG to LTM](https://dl.acm.org/doi/abs/10.1145/3767695.3769671) (Zhang et al., 2025) ![SIGIR-AP 2025](https://img.shields.io/badge/SIGIR--AP%202025-blue)
 * [MemOS: A Memory OS for AI System](https://arxiv.org/abs/2507.03724) (Li et al., 2025)
 * [EvoMem: Improving Multi-Agent Planning with Dual-Evolving Memory](https://arxiv.org/abs/2511.01912) (Fan et al., 2025)
 * AGENT KB (Tang et al.)
-* KARMA: Augmenting Embodied AI Agents with Long-and-Short Term Memory Systems (Wang et al., 2025) ![ICRA 2025](https://img.shields.io/badge/ICRA%202025-blue)
+* [KARMA: Augmenting Embodied AI Agents with Long-and-short Term Memory Systems](https://arxiv.org/abs/2409.14908) (Wang et al., 2025) ![ICRA 2025](https://img.shields.io/badge/ICRA%202025-blue)
 * MaaS (Li, 2025)
 * [Can Memory-Augmented LLM Agents Aid Journalism in Interpreting and Framing News (MADES)](https://arxiv.org/abs/2507.21055) (Ouyang, 2025)
-* TiMem (Li et al., 2026)
+* [TiMem: Temporal-Hierarchical Memory Consolidation for Long-Horizon Conversational Agents](https://arxiv.org/abs/2601.02845) (Li et al., 2026)
 * [Memory Management and Contextual Consistency for Long-Running Low-Code Agents](https://arxiv.org/abs/2509.25250) (Xu, 2025)
 
 <a name="policy-optimized-memory-management"></a>
