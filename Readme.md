@@ -2,7 +2,7 @@
 
 <div align="center">
   <a href="https://arxiv.org/abs/2602.19320"><img src="https://img.shields.io/badge/arXiv-2602.19320-b31b1b.svg?logo=arxiv" alt="arXiv"></a>
-  <a href=""><img src="https://img.shields.io/badge/Hugging%20Face-Paper-ffcc4d.svg?logo=huggingface" alt="Hugging Face"></a>
+  <a href="https://huggingface.co/papers/2602.19320"><img src="https://img.shields.io/badge/Hugging%20Face-Paper-ffcc4d.svg?logo=huggingface" alt="Hugging Face"></a>
   <a href="https://github.com/FredJiang0324/Anatomy-of-Agentic-Memory/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="Contributions Welcome"></a>
   <a href="https://github.com/FredJiang0324/Anatomy-of-Agentic-Memory"><img src="https://img.shields.io/github/stars/FredJiang0324/Anatomy-of-Agentic-Memory.svg?style=social&label=Star" alt="GitHub Stars"></a>
 </div>
