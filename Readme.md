@@ -1,7 +1,7 @@
 <h1 align="center">Anatomy of Agentic Memory: Taxonomy and Empirical Analysis of Evaluation and System Limitations</h1>
 
 <div align="center">
-  <a href=""><img src="https://img.shields.io/badge/arXiv-coming%20soon-b31b1b.svg?logo=arxiv" alt="arXiv"></a>
+  <a href="https://arxiv.org/abs/2602.19320"><img src="https://img.shields.io/badge/arXiv-2602.19320-b31b1b.svg?logo=arxiv" alt="arXiv"></a>
   <a href=""><img src="https://img.shields.io/badge/Hugging%20Face-Paper-ffcc4d.svg?logo=huggingface" alt="Hugging Face"></a>
   <a href="https://github.com/FredJiang0324/Anatomy-of-Agentic-Memory/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="Contributions Welcome"></a>
   <a href="https://github.com/FredJiang0324/Anatomy-of-Agentic-Memory"><img src="https://img.shields.io/github/stars/FredJiang0324/Anatomy-of-Agentic-Memory.svg?style=social&label=Star" alt="GitHub Stars"></a>
@@ -13,7 +13,7 @@
 
 ## 🔥 News
 
-- **[2026/02/xx]** Our survey *Anatomy of Agentic Memory* is released! See [paper](https://github.com/libingzheren/libingzheren.github.io/blob/master/file/2026_CoNLL_AgenticMemorySurvey__arxiv_.pdf) for details.
+- **[2026/02/23]** Our survey *Anatomy of Agentic Memory* is released on arXiv! See [paper](https://arxiv.org/abs/2602.19320) for details.
 - **[2026/02/20]** We create this repo to maintain the papers we cover in the agentic memory area. More papers are coming — **welcome to contribute to the community!** Open an issue or submit a pull request to add papers, fix links, or improve categorization.
 
 ## ⚡ Introduction
