@@ -310,13 +310,10 @@ We organize agentic memory into four structural paradigms:
 If you find this survey useful, please cite:
 
 ```bibtex
-@misc{jiang2026anatomyagenticmemorytaxonomy,
-      title={Anatomy of Agentic Memory: Taxonomy and Empirical Analysis of Evaluation and System Limitations},
-      author={Dongming Jiang and Yi Li and Songtao Wei and Jinxin Yang and Ayushi Kishore and Alysa Zhao and Dingyi Kang and Xu Hu and Feng Chen and Qiannan Li and Bingzhe Li},
-      year={2026},
-      eprint={2602.19320},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2602.19320},
+@article{jiang2026anatomy,
+  title={Anatomy of Agentic Memory: Taxonomy and Empirical Analysis of Evaluation and System Limitations},
+  author={Jiang, Dongming and Li, Yi and Wei, Songtao and Yang, Jinxin and Kishore, Ayushi and Zhao, Alysa and Kang, Dingyi and Hu, Xu and Chen, Feng and Li, Qiannan and others},
+  journal={arXiv preprint arXiv:2602.19320},
+  year={2026}
 }
 ```
