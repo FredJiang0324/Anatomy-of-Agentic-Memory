@@ -267,6 +267,7 @@ We organize agentic memory into four structural paradigms:
 * [Membox: Weaving Topic Continuity into Long-Range Memory for LLM Agents](https://arxiv.org/abs/2601.03785) (Tao et al., 2026)
 * [Memory Matters More: Event-Centric Memory as a Logic Map for Agent Searching and Reasoning](https://arxiv.org/abs/2601.04726) (Hu et al., 2026)
 * [AssoMem: Scalable Memory QA with Multi-Signal Associative Retrieval](https://arxiv.org/abs/2510.10397) (Zhang et al., 2025)
+* [Beyond RAG for Agent Memory: Retrieval by Decoupling and Aggregation](https://arxiv.org/abs/2602.02007) (Hu et al., 2026)
 
 <a name="os-inspired--hierarchical-memory"></a>
 #### OS-Inspired & Hierarchical Memory
