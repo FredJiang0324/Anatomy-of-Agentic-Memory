@@ -171,6 +171,7 @@ We organize agentic memory into four structural paradigms:
 <a name="token-level-semantic-memory"></a>
 #### Token-Level Semantic Memory
 
+* [Hippocampus: An Efficient and Scalable Memory Module for Agentic AI](https://arxiv.org/abs/2602.13594) (Li et al., 2026)
 * [TokMem: Tokenized Procedural Memory for Large Language Models](https://arxiv.org/abs/2510.00444) (Wu et al., 2025)
 * [MemGen: Weaving Generative Latent Memory for Self-Evolving Agents](https://arxiv.org/abs/2509.24704) (Zhang et al., 2025)
 * [Memory³: Language Modeling with Explicit Memory](https://arxiv.org/abs/2407.01178) (Yang et al., 2024)
